@@ -9,8 +9,8 @@ void main()
 
     if (num > 0)
     {
-        result = num * num;
-        printf("Square of the number %lf is: %lf\n", num, result);
+        result = num * num * num;
+        printf("Cube of the number %lf is: %lf\n", num, result);
     }
     else
     {

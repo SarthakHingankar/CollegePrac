@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 void main()
 {
@@ -9,8 +10,8 @@ void main()
 
     if (num > 0)
     {
-        result = num * num;
-        printf("Square of the number %lf is: %lf\n", num, result);
+        result = sqrt(num);
+        printf("Square root of the number %lf is: %lf\n", num, result);
     }
     else
     {
