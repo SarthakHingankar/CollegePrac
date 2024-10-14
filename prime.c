@@ -16,7 +16,7 @@ void main()
         }
     }
 
-    if (prime == 0)
+    if (prime == 1)
     {
         printf("%d is a prime number!\n", num);
     }
