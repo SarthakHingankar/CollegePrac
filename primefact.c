@@ -14,7 +14,7 @@ void main()
         while (a % i == 0)
         {
             a = a / i;
-            printf("%d\n", i);
+            printf("%d ", i);
         }
     }
 }
