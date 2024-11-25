@@ -2,7 +2,7 @@
 
 void main()
 {
-    int n, arr[10], feq = 0;
+    int n, arr[10], freq = 0;
 
     printf("Enter 10 integers\n");
     for (int i = 0; i < 10; i++)
@@ -18,16 +18,16 @@ void main()
     {
         if (arr[i] == n)
         {
-            feq++;
+            freq++;
         }
     }
 
-    if (!feq)
+    if (!freq)
     {
         printf("The number %d does not appear in the array\n", n);
     }
     else
     {
-        printf("The number %d appears %d times in the array\n", n, feq);
+        printf("The number %d appears %d times in the array\n", n, freq);
     }
 }
