@@ -8,4 +8,8 @@ salary = basic+hra+ta
 tax = 0.02*salary
 net = salary-tax
 
+print("basic salary is ", basic)
+print("hra is ", hra)
+print("ta is ", ta)
+print("total salary is ", salary)
 print("Your net salary is ", net)
